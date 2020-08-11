@@ -1,2 +1,2 @@
 # Jenkins
-hahaha, it's joke.
+ Say goodbye.
