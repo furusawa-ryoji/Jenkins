@@ -1,2 +1,2 @@
 # Jenkins
- jenkins automation.
+ jenkins is good CI.
