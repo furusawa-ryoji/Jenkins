@@ -1,2 +1,2 @@
 # Jenkins
- jenkins is good CI.
+ jenkins is so good CI.
