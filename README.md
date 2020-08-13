@@ -1,2 +1,2 @@
 # Jenkins
- google is god.
+ jenkins is so good CI.

@@ -5,9 +5,13 @@ from selenium.webdriver.chrome.options import Options
 options = webdriver.ChromeOptions()
 # options.add_argument('--headless')
 
+# pathを設定
+import glob
+driver_path = glob.glob('./python/webdriver/chromedriver*')[0]
+
 # Driverの生成
 driver = webdriver.Chrome(
-    executable_path='./webdriver/chromedriver.exe',
+    executable_path=driver_path,
     options=options
     )
 
