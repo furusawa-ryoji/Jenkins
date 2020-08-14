@@ -3,7 +3,8 @@ from selenium.webdriver.chrome.options import Options
 
 # Chromeのオプション
 options = webdriver.ChromeOptions()
-# options.add_argument('--headless')
+options.add_argument('--headless')
+options.add_argument('--no-sandbox')
 
 # pathを設定
 import glob
