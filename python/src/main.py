@@ -7,7 +7,7 @@ options = webdriver.ChromeOptions()
 
 # pathを設定
 import glob
-driver_path = glob.glob('./python/webdriver/chromedriver*')[0]
+driver_path = glob.glob('./webdriver/chromedriver*')[0]
 
 # Driverの生成
 driver = webdriver.Chrome(
