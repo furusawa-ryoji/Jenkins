@@ -55,7 +55,7 @@ driver.find_element_by_name("Submit").click()
 # 現在のhtmlのtitleを取得・表示
 title = driver.title
 print(title)
-print('これで終了')
+# print('これで終了')
 
 # ブラウザを終了
 driver.quit()
