@@ -19,10 +19,6 @@ driver = webdriver.Chrome(
 # URLにアクセス
 driver.get('https://gw.skywill.jp')
 
-# 現在のhtmlのtitleを取得・表示
-title = driver.title
-print(title)
-
 # ログインIDを取得し、入力
 driver.find_element_by_id("login_id").send_keys("rfurusawa")
 
@@ -33,15 +29,15 @@ driver.find_element_by_id("login_password").send_keys("Dm453z8B")
 driver.find_element_by_name("submit").click()
 
 # 現在のhtmlのtitleを取得・表示
-title = driver.title
-print(title)
+title1 = driver.title
+print(title1)
 
 # ログイン画面へ遷移
 driver.get("https://gw.skywill.jp/cgi-bin/cbag/ag.cgi?")
 
 # 現在のhtmlのtitleを取得・表示
-title = driver.title
-print(title)
+title2 = driver.title
+print(title2)
 
 # ログインIDを取得し、入力
 driver.find_element_by_name("_Account").send_keys("rfurusawa")
@@ -53,8 +49,8 @@ driver.find_element_by_name("Password").send_keys("Dm453z8B")
 driver.find_element_by_name("Submit").click()
 
 # 現在のhtmlのtitleを取得・表示
-title = driver.title
-print(title)
+title3 = driver.title
+print(title3)
 # print('これで終了')
 
 # ブラウザを終了
