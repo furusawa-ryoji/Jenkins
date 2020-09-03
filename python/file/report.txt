@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-[Date of script modification] 2020-09-01 14:57:35.502390
-[Date of this test execution] 2020-09-01 15:44:28.921071
+[Date of script modification] 2020-09-03 10:44:47.001841
+[Date of this test execution] 2020-09-03 10:48:02.696965
 
 test_login_s01 (tests.test_login.TestCalc) ... ok
 test_login_s02 (tests.test_login.TestCalc) ... ok
@@ -10,16 +9,3 @@ test_login_s03 (tests.test_login.TestCalc) ... ok
 Ran 3 tests in 0.001s
 
 OK
-=======
-[Date of script modification] 2020-09-01 14:52:31.929085
-[Date of this test execution] 2020-09-01 14:57:16.437767
-
-test_login_s01 (tests.test_login.TestCalc) ... ok
-test_login_s02 (tests.test_login.TestCalc) ... ok
-test_login_s03 (tests.test_login.TestCalc) ... ok
-
-----------------------------------------------------------------------
-Ran 3 tests in 0.000s
-
-OK
->>>>>>> 2a7834daf463b62bf165adca1085069c832dc415
