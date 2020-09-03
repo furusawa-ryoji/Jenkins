@@ -1,11 +1,11 @@
-[Date of script modification] 2020-09-01 21:13:36.378327
-[Date of this test execution] 2020-09-01 21:46:13.963562
+[Date of script modification] 2020-09-03 10:44:47.001841
+[Date of this test execution] 2020-09-03 10:48:02.696965
 
 test_login_s01 (tests.test_login.TestCalc) ... ok
 test_login_s02 (tests.test_login.TestCalc) ... ok
 test_login_s03 (tests.test_login.TestCalc) ... ok
 
 ----------------------------------------------------------------------
-Ran 3 tests in 0.014s
+Ran 3 tests in 0.001s
 
 OK
