@@ -1,5 +1,5 @@
-[Date of script modification] 2020-09-14 06:17:07.226658
-[Date of this test execution] 2020-09-14 06:17:07.714111
+[Date of script modification] 2020-09-14 06:18:00.934305
+[Date of this test execution] 2020-09-14 06:18:01.414482
 
 test_login_s01 (tests.test_login.TestCalc) ... ok
 test_login_s02 (tests.test_login.TestCalc) ... ok
